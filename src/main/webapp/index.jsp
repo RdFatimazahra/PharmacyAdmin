@@ -9,8 +9,8 @@
 <body>
 
 <div class="container">
-    <h1>Product List</h1>
-  <img src="/test.jpg" alt="test"/>
+    <h1>Liste des produits :</h1>
+<img src="PharmacyAdmin/media/test.jpg" alt="test"/>
     <table class="table table-bordered">
         <thead>
             <tr>
