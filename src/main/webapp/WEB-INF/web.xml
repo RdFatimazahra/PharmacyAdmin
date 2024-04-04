@@ -29,4 +29,24 @@
     <servlet-name>ServletPharmacy</servlet-name>
     <url-pattern>/ServletPharmacy</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddProductServlet</display-name>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>Pharmacy.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DisplayProductsServlet</display-name>
+    <servlet-name>DisplayProductsServlet</servlet-name>
+    <servlet-class>Pharmacy.DisplayProductsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayProductsServlet</servlet-name>
+    <url-pattern>/DisplayProductsServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
