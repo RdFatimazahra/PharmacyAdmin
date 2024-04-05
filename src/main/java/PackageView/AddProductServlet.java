@@ -1,4 +1,4 @@
-package Pharmacy;
+package PackageView;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,9 +8,9 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-public class DisplayProductsServlet extends HttpServlet {
+public class AddProductServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("index.jsp").forward(request, response);
+		request.getRequestDispatcher("AddProduct.jsp").forward(request, response);
 }
 
 
@@ -21,4 +21,3 @@ public class DisplayProductsServlet extends HttpServlet {
 */
 
 }
-

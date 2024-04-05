@@ -1,4 +1,4 @@
-package Pharmacy;
+package PackageView;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
