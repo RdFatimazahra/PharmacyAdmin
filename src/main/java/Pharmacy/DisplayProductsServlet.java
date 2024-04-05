@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class DisplayProductsServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("file.jsp").forward(request, response);
+		request.getRequestDispatcher("index.jsp").forward(request, response);
 }
 
 
